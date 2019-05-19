@@ -17,3 +17,4 @@ to docker hub
 * Update the integrationName in the integration.hub section if you used something other than `shipDH`
 * Change the DOCKER_REPO and DOCKER_ACC to point to your repo and docker account
 * You should be able to run a manual build or webhook build on commit
+* Here we are not using automatic Docker Hub Update, but using Node.js App to demonstrate how to automate an application using Docker
